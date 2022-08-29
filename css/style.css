@@ -162,7 +162,7 @@ article img{
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: space-around;
-    padding: 100px;
+    /* padding: 100px; */
 
 }
 .card{
@@ -511,6 +511,11 @@ input:focus{
     }
     .section5{
         justify-content: center;
+    }
+}
+@media (max-width: 576px){
+    .logo{
+        display: none;
     }
 }
 
