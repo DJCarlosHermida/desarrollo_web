@@ -1,0 +1,12 @@
+/* Section 1 */
+.section1{
+    background: linear-gradient(to right, rgba(97, 13, 13, 0.733), black);
+    width: 100%;
+    position: fixed;
+}
+.section1 ul li{
+    padding-left: 20px;
+    float: left;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
