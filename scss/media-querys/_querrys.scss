@@ -11,7 +11,8 @@
         border-radius: 20px;
     }
     .carousel{
-        width: 1024px;
+        width: 700px;
+        margin: 50px 0px;
         justify-content: center;
     }
 }
@@ -112,7 +113,7 @@
     }
     .gal-videos iframe{
         flex-direction: column;
-        width: 380px;
+        width: 360px;
         height: 150px;
         margin-left: 5px;
         margin-top: 10px;
@@ -121,7 +122,7 @@
         border-radius: 20px;
     }
     .carousel{
-        width: 380px;
+        width: 360px;
         justify-content: center;
     }
 }
@@ -143,11 +144,11 @@
         margin-left: 10px;
         margin-top: 10px;
     }
-    .gal-fotos img{
+    .gal-fotos{
         border-radius: 20px;
     }
     .carousel{
-        width: 320px;
+        width: 200px;
     }
     .social {
         flex-direction: column;
@@ -171,5 +172,10 @@
     }
     .main-about{
         flex-direction: row;
+    }
+    .carousel{
+        width: 340px;
+        display: flex;
+        justify-content: center;
     }
 }
