@@ -1,0 +1,32 @@
+.servicios-div3 {
+    overflow: hidden;
+    display: grid;
+    // padding: 50px;
+    background-color: rgba(97, 13, 13, 0.192);
+
+    border: 2px solid orange;
+    text-align: center;
+
+    h2 {
+        color: orange;
+    }
+
+    div {
+        article {
+            background-color: rgba(255, 166, 0, 0.356);
+            color: white;
+            table {
+                width: 320px;
+                tr{
+                    color: white;
+                    background-color: rgba(97, 13, 13, 0.673);
+                    margin: 20px;
+                    th{
+                        color: orange;
+                    }
+                }
+            }
+        }
+
+    }
+}

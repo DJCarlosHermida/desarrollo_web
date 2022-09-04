@@ -48,6 +48,26 @@ header {
     animation-duration: 4s;
     animation-name: aparecer; }
 
+.servicios-div3 {
+  overflow: hidden;
+  display: grid;
+  background-color: rgba(97, 13, 13, 0.192);
+  border: 2px solid orange;
+  text-align: center; }
+  .servicios-div3 h2 {
+    color: orange; }
+  .servicios-div3 div article {
+    background-color: rgba(255, 166, 0, 0.356);
+    color: white; }
+    .servicios-div3 div article table {
+      width: 320px; }
+      .servicios-div3 div article table tr {
+        color: white;
+        background-color: rgba(97, 13, 13, 0.673);
+        margin: 20px; }
+        .servicios-div3 div article table tr th {
+          color: orange; }
+
 /* REDES y FOOTER */
 .social a {
   line-height: 30px;
@@ -374,15 +394,6 @@ article img {
   overflow: hidden;
   padding: 15px;
   background-color: rgba(139, 132, 132, 0.445);
-  border: 2px solid orange;
-  text-align: center; }
-
-.servicios-div3 {
-  overflow: hidden;
-  display: grid;
-  padding: 50px;
-  background-color: rgba(97, 13, 13, 0.192);
-  color: orange;
   border: 2px solid orange;
   text-align: center; }
 

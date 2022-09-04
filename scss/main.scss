@@ -9,6 +9,7 @@
 @import './secciones/header';
 @import './secciones/section1';
 @import './secciones/section2';
+@import './secciones/section3';
 @import './secciones/footer';
 @import './media-querys/querrys';
 
@@ -161,15 +162,7 @@ article{
     border: 2px solid orange;
     text-align: center;
 }
-.servicios-div3{
-    overflow: hidden;
-    display: grid;
-    padding: 50px;
-    background-color: rgba(97, 13, 13, 0.192);
-    color: orange;
-    border: 2px solid orange;
-    text-align: center;
-}
+
 /* Section 4 */
 .section4{
     width: 100%;
