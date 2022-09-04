@@ -1,0 +1,77 @@
+/* REDES y FOOTER */
+.social a{
+    line-height: 30px;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+}
+.footer{
+    padding-bottom: 20px;
+    /* background-color: rgb(97, 13, 13); */
+    background: linear-gradient(to left, rgba(97, 13, 13, 0.733), black);
+    text-align: center;
+    color: whitesmoke;
+}
+.footer div a img{
+    width: 30px;
+    padding: 2px;
+    border-radius: 10px;
+    div{
+        padding: 15px;
+    }
+}
+
+footer a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.btn{
+    background-color: rgba(97, 13, 13, 0.733);
+    color: orange;
+}
+.btnUp{
+    position: absolute;
+    margin: 20px 20px;
+    font-style: italic;
+    text-decoration: none;
+    color: white;
+}
+.social a img:hover{
+    background-color: orange;
+}
+/* FORMULARIO */
+.div3-form{
+    overflow: hidden;
+    padding: 50px;
+    background-color: rgba(139, 132, 132, 0.445);
+    border: 2px solid orange;
+    text-align: center;
+}
+
+input{
+    
+    &:focus{
+        border-color: rgb(255, 166, 0);
+        color: black;
+    }
+
+
+}
+.form{
+    background-image: url(../img/auricular-black.jpg);
+    background-position: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+}
+.maps{
+    width: 280px;
+    margin: 10px;
+}
+.table{
+    margin: 50px 0px;
+    background-color: rgba(97, 13, 13, 0.685);
+    width: 800px;
+}
