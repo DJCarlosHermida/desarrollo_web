@@ -6,12 +6,12 @@
     font-family: sans-serif;
 }
 /*PARTIAL*/
+@import './variables/colores';
 @import './secciones/header';
 @import './secciones/section1';
 @import './secciones/section2';
 @import './secciones/section3';
 @import './secciones/footer';
-@import './variables/colores';
 @import './media-querys/querrys';
 
 html{
@@ -82,7 +82,8 @@ strong{
 }
 h2,h3,h4{
     text-align: center;
-    color: rgb(216, 146, 42);
+    // color: rgb(216, 146, 42);
+    color: $colorh2;
     animation-name: h2chanage;
     animation-duration: 2s;
     animation-delay: 0s;

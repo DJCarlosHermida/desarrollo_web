@@ -30,7 +30,7 @@ header {
     .section1 header .header__nav {
       background-color: orange; }
     .section1 header .header__li {
-      background-color: green; }
+      background-color: blue; }
 
 .section1 ul li {
   padding-left: 20px;
@@ -336,7 +336,7 @@ strong {
 
 h2, h3, h4 {
   text-align: center;
-  color: #d8922a;
+  color: orange;
   animation-name: h2chanage;
   animation-duration: 2s;
   animation-delay: 0s; }
