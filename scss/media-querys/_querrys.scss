@@ -70,6 +70,9 @@
     .section5{
         justify-content: center;
     }
+    table{
+        width: 500px;
+    }
 }
 @media (max-width: 576px){
     .logo{
@@ -105,9 +108,6 @@
     .tablaEventos{
         flex-direction: column;
     }
-    .table{
-        margin-left: 40px;
-    }
     .div3{
         justify-content: center;
     }
@@ -125,6 +125,10 @@
         width: 360px;
         justify-content: center;
     }
+    .servicios-div3{
+        width: 380px;
+    }
+  
 }
 
 @media (max-width: 360px){
@@ -147,9 +151,6 @@
     .gal-fotos{
         border-radius: 20px;
     }
-    .carousel{
-        width: 200px;
-    }
     .social {
         flex-direction: column;
     }
@@ -162,10 +163,6 @@
     }
     .footer{
         flex-direction: column;
-    }
-    .table{
-        width: 350px;
-        margin-left: 5px;
     }
     .div3{
         justify-content: center;

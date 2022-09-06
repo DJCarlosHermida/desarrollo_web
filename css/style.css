@@ -18,11 +18,19 @@ header {
   header img {
     width: 70px; }
 
-/* Section 1 */
+/* Section 1  BEM*/
 .section1 {
   background: linear-gradient(to right, rgba(97, 13, 13, 0.733), black);
   width: 100%;
   position: fixed; }
+  .section1 header {
+    background: transparent; }
+    .section1 header .header__logo {
+      width: 50px; }
+    .section1 header .header__nav {
+      background-color: orange; }
+    .section1 header .header__li {
+      background-color: green; }
 
 .section1 ul li {
   padding-left: 20px;
@@ -60,13 +68,17 @@ header {
     background-color: rgba(255, 166, 0, 0.356);
     color: white; }
     .servicios-div3 div article table {
-      width: 320px; }
+      width: 360px; }
       .servicios-div3 div article table tr {
         color: white;
-        background-color: rgba(97, 13, 13, 0.673);
-        margin: 20px; }
+        background-color: rgba(97, 13, 13, 0.673); }
+        .servicios-div3 div article table tr:hover {
+          color: white; }
         .servicios-div3 div article table tr th {
+          height: 50px;
           color: orange; }
+        .servicios-div3 div article table tr td {
+          color: white; }
 
 /* REDES y FOOTER */
 .social a {
@@ -190,7 +202,9 @@ input:focus {
   .grid-container {
     grid-template-areas: "header header header" "section1 section1 section1"; }
   .section5 {
-    justify-content: center; } }
+    justify-content: center; }
+  table {
+    width: 500px; } }
 
 @media (max-width: 576px) {
   .logo {
@@ -215,8 +229,6 @@ input:focus {
     width: 200px; }
   .tablaEventos {
     flex-direction: column; }
-  .table {
-    margin-left: 40px; }
   .div3 {
     justify-content: center; }
   .gal-videos iframe {
@@ -229,7 +241,9 @@ input:focus {
     border-radius: 20px; }
   .carousel {
     width: 360px;
-    justify-content: center; } }
+    justify-content: center; }
+  .servicios-div3 {
+    width: 380px; } }
 
 @media (max-width: 360px) {
   .grid-container {
@@ -246,8 +260,6 @@ input:focus {
     margin-top: 10px; }
   .gal-fotos {
     border-radius: 20px; }
-  .carousel {
-    width: 200px; }
   .social {
     flex-direction: column; }
   .tablaEventos {
@@ -257,9 +269,6 @@ input:focus {
     justify-content: center; }
   .footer {
     flex-direction: column; }
-  .table {
-    width: 350px;
-    margin-left: 5px; }
   .div3 {
     justify-content: center; }
   .main-about {
