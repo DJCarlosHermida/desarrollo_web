@@ -8,12 +8,14 @@
 /*PARTIAL*/
 @import './variables/colores';
 @import './variables/fuentes';
+@import './variables/conficionales';
 @import './secciones/header';
 @import './secciones/section1';
 @import './secciones/section2';
 @import './secciones/section3';
 @import './secciones/footer';
 @import './media-querys/querrys';
+
 
 html{
     scroll-behavior: smooth;

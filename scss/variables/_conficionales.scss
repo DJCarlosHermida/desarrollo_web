@@ -1,0 +1,7 @@
+ $contenido: 25 ;
+
+ .contenidoP p{
+    @if ($contenido < 30) {
+        font-size: 15px;
+    }
+ }

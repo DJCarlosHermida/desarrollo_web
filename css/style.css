@@ -8,6 +8,9 @@
   font-family: sans-serif; }
 
 /*PARTIAL*/
+.contenidoP p {
+  font-size: 15px; }
+
 header {
   display: flex;
   justify-content: space-between;
