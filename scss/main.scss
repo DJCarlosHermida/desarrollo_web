@@ -7,6 +7,7 @@
 }
 /*PARTIAL*/
 @import './variables/colores';
+@import './variables/fuentes';
 @import './secciones/header';
 @import './secciones/section1';
 @import './secciones/section2';
@@ -155,6 +156,9 @@ article{
 .card-header{
     background-color: rgba(97, 13, 13, 0.733);
     color: orange;
+}
+.car-text{
+    font-family: $font1;
 }
 
 .about-div3{

@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* Class Reset */
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -398,6 +399,9 @@ article img {
 .card-header {
   background-color: rgba(97, 13, 13, 0.733);
   color: orange; }
+
+.car-text {
+  font-family: "Inconsolata", monospace; }
 
 .about-div3 {
   overflow: hidden;
