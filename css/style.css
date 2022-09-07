@@ -11,9 +11,10 @@
 .contenidoP p {
   font-size: 15px; }
 
-.card {
+.card, .section4 {
   text-align: center; }
 
+/* MIXIN */
 header {
   display: flex;
   justify-content: space-between;
@@ -303,7 +304,10 @@ ul {
   100% {
     opacity: 1; } }
 
-/* EXTEND*/
+/* EXTEND & MIXIN */
+.section4 {
+  text-transform: uppercase; }
+
 /* Menú Desplegable */
 ul li:hover ul {
   display: block;

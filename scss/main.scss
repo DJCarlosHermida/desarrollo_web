@@ -39,9 +39,13 @@ ul{
         opacity: 1;
     }
 }
-/* EXTEND*/
+/* EXTEND & MIXIN */ 
 .card{
     @extend %opDisco;
+}
+.section4{
+    @extend %opDisco;
+    @include styleBack (uppercase);
 }
 
 
