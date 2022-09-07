@@ -5,10 +5,11 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-/*PARTIAL*/
+/*PARTIAL*/ 
 @import './variables/colores';
 @import './variables/fuentes';
 @import './variables/conficionales';
+@import './variables/extend';
 @import './secciones/header';
 @import './secciones/section1';
 @import './secciones/section2';
@@ -38,6 +39,12 @@ ul{
         opacity: 1;
     }
 }
+/* EXTEND*/
+.card{
+    @extend %opDisco;
+}
+
+
 /* Menú Desplegable */
 ul li:hover ul{
     display: block;

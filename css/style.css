@@ -11,6 +11,9 @@
 .contenidoP p {
   font-size: 15px; }
 
+.card {
+  text-align: center; }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -300,6 +303,7 @@ ul {
   100% {
     opacity: 1; } }
 
+/* EXTEND*/
 /* Menú Desplegable */
 ul li:hover ul {
   display: block;
