@@ -30,7 +30,7 @@ header {
 .section1 {
   background: linear-gradient(to right, rgba(97, 13, 13, 0.733), black);
   width: 100%;
-  position: fixed; }
+  position: absolute; }
   .section1 header {
     background: transparent; }
     .section1 header .header__logo {
@@ -75,18 +75,16 @@ header {
   .servicios-div3 div article {
     background-color: rgba(255, 166, 0, 0.356);
     color: white; }
-    .servicios-div3 div article table {
-      width: 360px; }
-      .servicios-div3 div article table tr {
-        color: white;
-        background-color: rgba(97, 13, 13, 0.673); }
-        .servicios-div3 div article table tr:hover {
-          color: white; }
-        .servicios-div3 div article table tr th {
-          height: 50px;
-          color: orange; }
-        .servicios-div3 div article table tr td {
-          color: white; }
+    .servicios-div3 div article table tr {
+      color: white;
+      background-color: rgba(97, 13, 13, 0.673); }
+      .servicios-div3 div article table tr:hover {
+        color: white; }
+      .servicios-div3 div article table tr th {
+        height: 50px;
+        color: orange; }
+      .servicios-div3 div article table tr td {
+        color: white; }
 
 /* REDES y FOOTER */
 .social a {
@@ -204,7 +202,15 @@ input:focus {
     border-radius: 20px; }
   .carousel {
     width: 680px;
-    justify-content: center; } }
+    justify-content: center; }
+  .servicios-div3 {
+    width: 780px; }
+  .container-table {
+    width: 700px; }
+  .table {
+    width: 700px; }
+  .table tr td {
+    justify-self: center; } }
 
 @media (max-width: 768px) {
   .grid-container {
@@ -251,7 +257,13 @@ input:focus {
     width: 360px;
     justify-content: center; }
   .servicios-div3 {
-    width: 380px; } }
+    width: 380px; }
+  .container-table {
+    width: 350px; }
+  .table {
+    width: 350px; }
+  .table tr td {
+    justify-self: center; } }
 
 @media (max-width: 360px) {
   .grid-container {
@@ -284,7 +296,15 @@ input:focus {
   .carousel {
     width: 340px;
     display: flex;
-    justify-content: center; } }
+    justify-content: center; }
+  .servicios-div3 {
+    width: 355px; }
+  .container-table {
+    width: 330px; }
+  .table {
+    width: 330px; }
+  .table tr td {
+    justify-self: center; } }
 
 html {
   scroll-behavior: smooth; }

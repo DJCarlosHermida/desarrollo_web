@@ -60,6 +60,18 @@
         width: 680px;
         justify-content: center;
     }
+    .servicios-div3{
+        width: 780px;
+    }
+    .container-table{
+        width: 700px;
+    }
+    .table{
+        width: 700px;
+    }
+    .table tr td{
+        justify-self: center;
+    }
 } 
 @media (max-width: 768px){
     .grid-container{
@@ -128,6 +140,15 @@
     .servicios-div3{
         width: 380px;
     }
+    .container-table{
+        width: 350px;
+    }
+    .table{
+        width: 350px;
+    }
+    .table tr td{
+        justify-self: center;
+    }
   
 }
 
@@ -174,5 +195,17 @@
         width: 340px;
         display: flex;
         justify-content: center;
+    }
+    .servicios-div3{
+        width: 355px;
+    }
+    .container-table{
+        width: 330px;
+    }
+    .table{
+        width: 330px;
+    }
+    .table tr td{
+        justify-self: center;
     }
 }
