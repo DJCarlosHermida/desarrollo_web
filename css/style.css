@@ -115,6 +115,10 @@ footer a {
   background-color: rgba(97, 13, 13, 0.733);
   color: orange; }
 
+.btn:hover {
+  background-color: orange;
+  color: rgba(97, 13, 13, 0.733); }
+
 .btnUp {
   position: absolute;
   margin: 20px 20px;
@@ -125,6 +129,85 @@ footer a {
 .social a img:hover {
   background-color: orange; }
 
+.table {
+  margin: 50px 0px;
+  background-color: rgba(97, 13, 13, 0.685);
+  width: 800px; }
+
+/* MAIN */
+main {
+  background-image: url(../img/fiesta1.jpg);
+  background-position: 0px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  main div a {
+    color: whitesmoke;
+    background-color: rgba(97, 13, 13, 0.673);
+    border-radius: 10px; }
+  main .contenido {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center; }
+  main .contenidoP {
+    font-family: sans-serif;
+    font-size: 14px;
+    word-spacing: 10px;
+    line-height: 18px;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px orange solid;
+    background-color: rgba(97, 13, 13, 0.672);
+    overflow: hidden;
+    color: whitesmoke; }
+
+.main-about {
+  background-image: url(../img/auricular-color.jpg);
+  background-position: 0px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.style-about {
+  color: whitesmoke;
+  background-color: rgba(97, 13, 13, 0.672);
+  border-radius: 20px; }
+
+.contenido h3 a {
+  display: inline-block;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 2px orange solid; }
+
+.about-div3 {
+  display: grid;
+  justify-items: center;
+  justify-content: center; }
+
+.contenidoAbout {
+  display: grid;
+  height: 600px;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  border: 2px orange solid;
+  overflow: scroll; }
+
+.contenidoAbout img {
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  position: sticky; }
+
+.div3 iframe {
+  border: 2px solid orange;
+  margin-top: 20px; }
+
 /* FORMULARIO */
 .div3-form {
   overflow: hidden;
@@ -133,9 +216,11 @@ footer a {
   border: 2px solid orange;
   text-align: center; }
 
-input:focus {
-  border-color: #ffa600;
-  color: black; }
+input {
+  border-radius: 10px; }
+  input:focus {
+    border-color: #ffa600;
+    color: black; }
 
 .form {
   background-image: url(../img/auricular-black.jpg);
@@ -145,15 +230,12 @@ input:focus {
   border-radius: 20px;
   color: white;
   padding: 10px; }
+  .form textarea {
+    border-radius: 10px; }
 
 .maps {
   width: 280px;
   margin: 10px; }
-
-.table {
-  margin: 50px 0px;
-  background-color: rgba(97, 13, 13, 0.685);
-  width: 800px; }
 
 /*Media Querry*/
 @media (max-width: 1920px) {
@@ -369,6 +451,8 @@ strong {
 h2, h3, h4 {
   text-align: center;
   color: orange;
+  background-color: rgba(97, 13, 13, 0.733);
+  border-radius: 10px;
   animation-name: h2chanage;
   animation-duration: 2s;
   animation-delay: 0s; }
@@ -431,7 +515,7 @@ article img {
   background-color: rgba(97, 13, 13, 0.733);
   color: orange; }
 
-.car-text {
+.card-text {
   font-family: "Inconsolata", monospace; }
 
 .about-div3 {
@@ -502,77 +586,3 @@ article img {
   .section5 td:hover {
     color: orange;
     background-color: rgba(97, 13, 13, 0.864); }
-
-/* MAIN */
-main {
-  background-image: url(../img/fiesta1.jpg);
-  background-position: 0px;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  main div a {
-    color: whitesmoke;
-    background-color: rgba(97, 13, 13, 0.673);
-    border-radius: 10px; }
-  main .contenido {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-items: center; }
-  main .contenidoP {
-    font-family: sans-serif;
-    font-size: 14px;
-    word-spacing: 10px;
-    line-height: 18px;
-    width: 300px;
-    height: 200px;
-    padding: 20px;
-    margin-left: 10px;
-    border-radius: 10px;
-    border: 2px orange solid;
-    background-color: rgba(97, 13, 13, 0.672);
-    overflow: hidden;
-    color: whitesmoke; }
-
-.main-about {
-  background-image: url(../img/auricular-color.jpg);
-  background-position: 0px;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.style-about {
-  color: whitesmoke;
-  background-color: rgba(97, 13, 13, 0.672);
-  border-radius: 20px; }
-
-.contenido h3 a {
-  display: inline-block;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  border: 2px orange solid; }
-
-.about-div3 {
-  display: grid;
-  justify-items: center;
-  justify-content: center; }
-
-.contenidoAbout {
-  display: grid;
-  height: 600px;
-  border-radius: 10px;
-  margin: 20px;
-  padding: 10px;
-  border: 2px orange solid;
-  overflow: scroll; }
-
-.contenidoAbout img {
-  width: 300px;
-  height: 150px;
-  border-radius: 10px;
-  position: sticky; }
-
-.div3 iframe {
-  border: 2px solid orange;
-  margin-top: 20px; }
