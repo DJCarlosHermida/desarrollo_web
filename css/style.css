@@ -414,6 +414,8 @@ ul {
 /* EXTEND & MIXIN */
 .section4 {
   text-transform: uppercase; }
+  .section4 .card {
+    box-shadow: 10px 5px 5px 0px rgba(97, 13, 13, 0.733); }
 
 /* Menú Desplegable */
 ul li:hover ul {

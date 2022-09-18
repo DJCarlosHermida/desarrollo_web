@@ -48,6 +48,9 @@ ul{
 .section4{
     @extend %opDisco;
     @include styleBack (uppercase);
+    .card{
+        box-shadow: 10px 5px 5px 0px rgba(97, 13, 13, 0.733);
+    }
 }
 
 
